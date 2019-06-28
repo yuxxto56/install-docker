@@ -1,5 +1,5 @@
 ![docker_logo](https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3534957911,2629491814&fm=27&gp=0.jpg)
-## window上安装docker及应用
+## windows上安装docker及应用
 
 ### 安装
 * 下载：[http://mirrors.aliyun.com/docker-toolbox/windows/docker-toolbox/DockerToolbox-18.03.0-ce.exe](http://mirrors.aliyun.com/docker-toolbox/windows/docker-toolbox/DockerToolbox-18.03.0-ce.exe)
