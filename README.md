@@ -33,8 +33,8 @@ For help getting started, check out the docs at https://docs.docker.com
 * 创建并启动swoft容器
 ```swoft doctor
   docker run -p 18307:18306 --name swofts -v /d/wamp/www/swoft/:/var/www/swoft swoft/swoft
-  # -p 18307:18306,指定虚拟机与容器的端口映射,前者代表虚拟机(virtualbox)端口,后者是容器服务端口。
-  # -name swofts  ,指定容器名称
+  # -p 18307:18306 指定虚拟机与容器的端口映射,前者代表虚拟机(virtualbox)端口,后者是容器服务端口。
+  # -name swofts   指定容器名称
   #  -v /d/wamp/www/swoft/:/var/www/swoft 虚拟机目录与容器目录的映射。
   # swoft/swoft swoft项目在docker上的镜像（映像）
 ```
@@ -46,7 +46,7 @@ For help getting started, check out the docs at https://docs.docker.com
 ``` swoft start
    docker start swofts
 ```
-* 查看全部|已开启的容器
+* 查看容器
 ```
   1、docker ps -a  #查看docker环境下的全部容器
   2、docker ps     #查看docker环境下正在运行的容器
