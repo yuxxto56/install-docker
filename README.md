@@ -57,3 +57,11 @@ For help getting started, check out the docs at https://docs.docker.com
 ```
 
 
+### 说明
+* docker start swofts //在后台启动运行容器
+* docker run swofts //如果本地没有改镜像,则远程docker_hub上下载，在前台启动运行容器
+* docker与windows的结构关系
+``` relation
+  windows->virtualbox->docker环境->docker容器
+```
+* 文档参考：[https://docs.docker.com/](https://docs.docker.com/)
