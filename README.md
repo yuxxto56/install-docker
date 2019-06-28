@@ -17,7 +17,7 @@
 
 docker is configured to use the default machine with IP 172.16.0.100
 For help getting started, check out the docs at https://docs.docker.com
-
+```
 * 前提：这里的容器应用以php swoft微服务框架为条件
 
 ### docker 镜像
@@ -56,4 +56,4 @@ For help getting started, check out the docs at https://docs.docker.com
   docker rm swofts #删除前提请先关闭该容器，docker stop swofts
 ```
 
-#
+
