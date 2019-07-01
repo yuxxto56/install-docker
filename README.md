@@ -72,7 +72,13 @@ For help getting started, check out the docs at https://docs.docker.com
 ```
   exit
 ```
-
+### 查看容器日志
+```
+ docker logs --tail=20 -f swofts
+ # --tail=20 查看最后20行的日志
+ # -f        持续监听日志
+ # swofts    查看日志的容器名称
+```
 
 ### 说明
 * docker start swofts //在后台启动运行容器
