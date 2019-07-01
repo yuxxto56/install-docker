@@ -68,7 +68,6 @@ For help getting started, check out the docs at https://docs.docker.com
 ```
  docker exec -it swofts bash
 ```
-
 * 容器切换到虚拟机
 ```
   exit
