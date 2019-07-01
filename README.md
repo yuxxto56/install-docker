@@ -55,6 +55,24 @@ For help getting started, check out the docs at https://docs.docker.com
 ```
   docker rm swofts #删除前提请先关闭该容器，docker stop swofts
 ```
+### 环境切换
+* windows切换到虚拟机
+```
+  docker-machine.exe ssh
+```
+* 虚拟机切换到windows
+```
+  exit
+```
+* 虚拟机切换到容器
+```
+ docker exec -it swofts bash
+```
+
+* 容器切换到虚拟机
+```
+  exit
+```
 
 
 ### 说明
