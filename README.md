@@ -75,9 +75,10 @@ For help getting started, check out the docs at https://docs.docker.com
 ### 查看容器日志
 ```
  docker logs --tail=20 -f swofts
+ 
  # --tail=20 查看最后20行的日志
  # -f        持续监听日志
- # swofts    查看日志的容器名称
+ # swofts    容器名称
 ```
 
 ### 说明
